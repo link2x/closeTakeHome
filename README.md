@@ -18,7 +18,7 @@ This script aims to accomplish the following tasks:
 
 Outside of the Close API, all the funcionality necessary is built into Python.
 
-The bulk of the work is filtering out invalid and incomplete data. After importing the entire CSV file, each row is check for invalid phone numbers and email addresses.
+The bulk of the work is filtering out invalid and incomplete data. After importing the entire CSV file, each row is checked for invalid phone numbers and email addresses.
 
 Additionally, contacts that are missing basic information are dropped entirely (in this instance, contacts that have no contact information).
 I have opted not to make a decision on names, as they are best fixed on an individual basis.
