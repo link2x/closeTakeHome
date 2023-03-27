@@ -5,6 +5,8 @@ Requires the Close API:
 Usage:
 `python .\closetest.py api_key input_file export_file from_date to_date`
 
+Dates must be in ISO format.
+
 Example:
 `python .\closetest.py [API_KEY] import.csv export.csv 1971-02-27 2023-01-01`
 
